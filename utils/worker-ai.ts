@@ -4,14 +4,14 @@ export async function workerAi(
   stream: boolean = false,
   max_tokens: number = 8000, // default 256
   temperature: number = 0.8, // default 0.6, min 0, max 5
-  model: string = "@cf/meta/llama-3.1-70b-instruct",
-  id_account: string = "f829c6b6b573c311bdecd92843e695a9"
+  model: string = process.env.WORKER_AI_MODEL || "@cf/meta/llama-3.1-70b-instruct",
+  id_account: string = process.env.CLOUDFLARE_ACCOUNT_ID || "",
 ) {
   const res = await fetch(
     `https://api.cloudflare.com/client/v4/accounts/${id_account}/ai/run/${model}`,
     {
       headers: {
-        Authorization: "Bearer 0g0HlYT2d7l8WmQKLAI4ZUMGTbnPy6sbzNkLYlHb",
+        Authorization: `Bearer ${process.env.CLOUDFLARE_API_TOKEN}`,
       },
       method: "POST",
       body: JSON.stringify({
