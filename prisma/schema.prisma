@@ -1,0 +1,18 @@
+generator client {
+  provider        = "prisma-client-js"
+  previewFeatures = ["fullTextSearch"]
+}
+
+datasource db {
+  provider = "mongodb"
+  url      = env("DATABASE_URL")
+}
+
+model news {
+  id                String  @id @default(auto()) @map("_id") @db.ObjectId
+  title             String
+  processed_content String
+  published_date    DateTime @db.Date
+  source_name       String
+  url               String
+}
