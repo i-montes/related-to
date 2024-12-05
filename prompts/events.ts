@@ -14,31 +14,13 @@ Analiza la noticia proporcionada y extrae información para completar el siguien
 - Registra el lugar geográfico donde ocurrió el evento
 - Incluye ciudad, región o país si está disponible
 
-4. descripcion_corta:
-- Crea un resumen breve y preciso del evento
-- Máximo 2-3 líneas capturando la esencia del acontecimiento
+4. descripcion:
+- Crea un resumen preciso del evento
+- Se conciso
 
-5. impacto_politico:
-- Describe las implicaciones políticas del evento
-- Analiza posibles consecuencias en el contexto político
-- No incluyas consecuencias que no sean directamente relacionadas con el evento
-- No hagas reducciones o simplificaciones de la información
-- Incluye solo consecuencias políticas, sociales o económicas
-- No incluyas fuentes externas
-- No incluyas referencias a otras noticias
-- No inventes información
-- Usa información explícitamente mencionada en la noticia
-
-6. actores_clave:
+6. actores_clave_en_el_evento:
 - Lista los nombres de personas o grupos principales involucrados
 - Incluye solo actores directamente relacionados con el evento
-
-7. consecuencias:
-- Enumera los efectos inmediatos
-- Incluye consecuencias políticas, sociales o económicas
-- No incluyas consecuencias que no sean directamente relacionadas con el evento
-- No hagas reducciones o simplificaciones de la información
-- No incluyas fuentes externas
 
 
 Reglas:
@@ -50,12 +32,13 @@ Reglas:
 - Utiliza un lenguaje simple y claro. 
 - No uses puntos suspensivos. 
 - No incluyas referencias a otras noticias.
-- Tu respuesta debe ser un JSON válido. No uses comentarios en tu respuesta. 
+- Tu respuesta debe ser un JSON válido. No uses comentarios en tu respuesta.
+- Extrae todos los eventos principales de la noticia
 
 
 Noticia:
 [NOTICIA_AQUÍ]
 
-JSON resultante:
+Array resultante:
 [JSON_RESULTADO]
 `

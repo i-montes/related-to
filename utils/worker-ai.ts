@@ -24,22 +24,28 @@ export async function workerAi(
     }
   );
 
+  const {
+    result: { response },
+    success,
+    errors
+  } = await res.json();
+
   try {
-    const {
-      result: { response },
-    } = await res.json();
+    if (!success) {
+      throw new Error('Error en la respuesta del worker ai');
+    }
     return JSON.parse(response);
-  } catch (error) {
-    const {
-      result: { response },
-    } = await res.json();
+  } catch (er) {
+    if(!success) {
+      throw new Error(errors?.[0]?.message);
+    }
+
     const match = response.match(/\[\s*{[\s\S]*?}\s*\]/);
     if (match) {
       const json = match[0];
-      console.log("FUE POR MATCH");
 
       return JSON.parse(json);
     }
-    throw error;
+    // throw error;
   }
 }

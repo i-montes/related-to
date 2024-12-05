@@ -46,7 +46,7 @@ export async function retry<T extends z.ZodTypeAny>(
             }
 
             // Log the error and wait before retrying
-            console.warn(`Attempt ${retryCount} failed. Retrying in ${currentDelay}ms...`, error);
+            console.warn(`Attempt ${retryCount} failed. Retrying in ${currentDelay}ms...`);
 
             // Wait before next retry
             await new Promise(resolve => setTimeout(resolve, currentDelay));
