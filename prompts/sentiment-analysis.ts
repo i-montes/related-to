@@ -22,7 +22,7 @@ Analiza el tono y sentimiento de la noticia:
   * Extremo
 
 3. emociones_predominantes:
-- Extrae emociones clave transmitidas
+- Extrae la emocion principal
 - Ejemplos:
   * Frustración
   * Esperanza

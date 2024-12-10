@@ -1,0 +1,222 @@
+{
+  "metadata": {
+    "titulo": "“El gobierno no promueve constituyentes universitarias”: Daniel Rojas",
+    "fecha_publicacion": "2024-08-14T17:57:39.000Z",
+    "fuente": "silla_vacia",
+    "autor": {
+      "id": 18,
+      "name": "Edgar Quintero Herrera",
+      "twitter_misc": "9 minutos"
+    },
+    "url": "https://www.lasillavacia.com/silla-nacional/el-gobierno-no-promueve-constituyentes-universitarias-daniel-rojas/"
+  },
+  "entidades": [
+    {
+      "nombre": "Daniel Rojas",
+      "tipo": "persona",
+      "cargo": "Ministro de Educación",
+      "afiliacion_politica": "Izquierda",
+      "rol_en_evento": "Principal figura en la noticia, dando entrevista sobre sus planes y políticas como Ministro de Educación"
+    },
+    {
+      "nombre": "Xavier Vendrell",
+      "tipo": "persona",
+      "cargo": "Estratega español y fundador de Activistas del Cambio",
+      "afiliacion_politica": "",
+      "rol_en_evento": "Mencionado como fundador de Activistas del Cambio, una organización relacionada con las constituyentes universitarias"
+    },
+    {
+      "nombre": "Gustavo Petro",
+      "tipo": "persona",
+      "cargo": "Presidente de la República",
+      "afiliacion_politica": "Izquierda",
+      "rol_en_evento": "Mencionado como el presidente que nombró a Daniel Rojas como Ministro de Educación y cuya ideología comparte Rojas"
+    },
+    {
+      "nombre": "Alejandro Gaviria",
+      "tipo": "persona",
+      "cargo": "Exministro de Educación",
+      "afiliacion_politica": "",
+      "rol_en_evento": "Mencionado como exministro con una visión diferente sobre la educación, en contraste con la de Daniel Rojas"
+    },
+    {
+      "nombre": "Juan Fernando Cristo",
+      "tipo": "persona",
+      "cargo": "Ministro del Interior",
+      "afiliacion_politica": "",
+      "rol_en_evento": "Mencionado como ministro que ha tenido conversaciones con Daniel Rojas sobre la presentación de una reforma a la ley 30"
+    },
+    {
+      "nombre": "Darío Maldonado",
+      "tipo": "persona",
+      "cargo": "Experto en educación de la Universidad de Los Andes",
+      "afiliacion_politica": "",
+      "rol_en_evento": "Mencionado como experto que ha cuestionado la estrategia del ministerio de enfocarse en la infraestructura"
+    },
+    {
+      "nombre": "Aurora Vergara",
+      "tipo": "persona",
+      "cargo": "Exministra de Educación",
+      "afiliacion_politica": "",
+      "rol_en_evento": "Mencionada como exministra que presentó una ley estatutaria que fue vetada por Fecode"
+    },
+    {
+      "nombre": "Fecode",
+      "tipo": "organizacion",
+      "cargo": "",
+      "afiliacion_politica": "",
+      "rol_en_evento": "Mencionado como sindicato que vetó la ley estatutaria de la exministra Aurora Vergara y con el que el ministerio busca mantener una relación de diálogo"
+    },
+    {
+      "nombre": "Activistas del Cambio",
+      "tipo": "organizacion",
+      "cargo": "",
+      "afiliacion_politica": "",
+      "rol_en_evento": "Mencionada como organización fundada por Xavier Vendrell y relacionada con las constituyentes universitarias"
+    }
+  ],
+  "eventos_principales": [
+    {
+      "nombre": "Entrevista del ministro de Educación, Daniel Rojas",
+      "fecha": "",
+      "ubicacion": "",
+      "descripcion": "El ministro de Educación, Daniel Rojas, habla sobre su visión para la educación en Colombia, la relación con el sindicato Fecode y la promesa de aumentar 500 mil cupos universitarios.",
+      "actores_clave_en_el_evento": [
+        "Daniel Rojas",
+        "Gustavo Petro",
+        "Xavier Vendrell",
+        "Alejandro Gaviria",
+        "Juan Fernando Cristo",
+        "Aurora Vergara"
+      ]
+    },
+    {
+      "nombre": "Promesa de aumentar 500 mil cupos universitarios",
+      "fecha": "",
+      "ubicacion": "",
+      "descripcion": "El ministro de Educación, Daniel Rojas, afirmó que van a cumplir con la promesa de aumentar 500 mil cupos universitarios.",
+      "actores_clave_en_el_evento": [
+        "Daniel Rojas"
+      ]
+    },
+    {
+      "nombre": "Reforma a la ley 30 para aumentar la financiación de las universidades",
+      "fecha": "",
+      "ubicacion": "",
+      "descripcion": "El ministro de Educación, Daniel Rojas, anunció que van a presentar una reforma a la ley 30 para aumentar la financiación de las universidades.",
+      "actores_clave_en_el_evento": [
+        "Daniel Rojas"
+      ]
+    },
+    {
+      "nombre": "Relación con el sindicato Fecode",
+      "fecha": "",
+      "ubicacion": "",
+      "descripcion": "El ministro de Educación, Daniel Rojas, afirmó que va a mantener una relación de diálogo y construcción colectiva con el sindicato Fecode.",
+      "actores_clave_en_el_evento": [
+        "Daniel Rojas"
+      ]
+    }
+  ],
+  "temas_principales": {
+    "tema": "Entrevista con el ministro de Educación, Daniel Rojas",
+    "descripcion": "El ministro de Educación, Daniel Rojas, habla sobre su visión para el sector educativo en Colombia, su relación con el sindicato Fecode y su posición sobre la reelección del presidente Petro en 2026.",
+    "perspectivas_principales": [
+      "Rojas niega que el gobierno esté impulsando las constituyentes universitarias, pero admite que hay coordinación con organizaciones como Activistas del Cambio.",
+      "El ministro anuncia la presentación de una reforma a la ley 30 para aumentar la financiación de las universidades.",
+      "Rojas descarta un cambio en la gobernanza de los consejos superiores para aumentar el peso del voto de los estudiantes en la elección de rectores.",
+      "El ministro marca distancia frente a Fecode, el poderoso sindicato de profesores, y busca una relación de diálogo y construcción colectiva.",
+      "Rojas enfatiza la importancia de la educación como un derecho que se garantiza, en lugar de un servicio que se presta."
+    ]
+  },
+  "analisis_sentimiento": {
+    "tono_general": "Neutral",
+    "polarizacion": "Medio",
+    "emociones_predominantes": "Preocupación"
+  },
+  "palabras_clave": [
+    "Daniel Rojas",
+    "Ministro de Educación",
+    "Gobierno de Petro",
+    "Constituyentes universitarias",
+    "Activistas del Cambio",
+    "Xavier Vendrell",
+    "Reforma a la ley 30",
+    "Financiación de las universidades",
+    "Fecode",
+    "Sindicato de profesores",
+    "Educación superior",
+    "Políticas públicas",
+    "Gustavo Petro"
+  ],
+  "relaciones": [
+    {
+      "from": "Daniel Rojas",
+      "to": "Gustavo Petro",
+      "type": "personal",
+      "description": "Daniel Rojas fue nombrado como ministro de Educación por el presidente Gustavo Petro, a pesar de no tener experiencia en el sector educativo. Rojas había trabajado como director de la Sociedad de Activos Especiales (SAE) antes de asumir el ministerio.",
+      "properties": [
+        {
+          "label": "cargo",
+          "value": "Ministro de Educación"
+        },
+        {
+          "label": "presidente",
+          "value": "Gustavo Petro"
+        }
+      ]
+    },
+    {
+      "from": "Daniel Rojas",
+      "to": "Activistas del Cambio",
+      "type": "profesional",
+      "description": "Rojas niega que el gobierno esté impulsando las constituyentes universitarias, pero admite que hay una coordinación con organizaciones como Activistas del Cambio, fundada por Xavier Vendrell, para promover esas constituyentes.",
+      "properties": [
+        {
+          "label": "organización",
+          "value": "Activistas del Cambio"
+        },
+        {
+          "label": "fundador",
+          "value": "Xavier Vendrell"
+        }
+      ]
+    },
+    {
+      "from": "Daniel Rojas",
+      "to": "Xavier Vendrell",
+      "type": "personal",
+      "description": "Rojas afirma no tener relación con Vendrell, a pesar de que Activistas del Cambio, fundada por Vendrell, esté involucrada en la promoción de las constituyentes universitarias.",
+      "properties": [
+        {
+          "label": "relación",
+          "value": "ninguna"
+        }
+      ]
+    },
+    {
+      "from": "Daniel Rojas",
+      "to": "Fecode",
+      "type": "institucional",
+      "description": "Rojas afirma que mantendrá una relación de diálogo y construcción colectiva con Fecode, pero no aceptará la imposición de ningún sector en las determinaciones propias del Ministerio.",
+      "properties": [
+        {
+          "label": "sindicato",
+          "value": "Fecode"
+        }
+      ]
+    },
+    {
+      "from": "Daniel Rojas",
+      "to": "Juan Fernando Cristo",
+      "type": "profesional",
+      "description": "Rojas menciona que el ministro del Interior, Juan Fernando Cristo, le pidió que el proyecto de reforma a la ley 30 llegue lo más sensato posible y que lo socialice con los congresistas antes de presentarlo.",
+      "properties": [
+        {
+          "label": "ministro",
+          "value": "Juan Fernando Cristo"
+        }
+      ]
+    }
+  ]
+}

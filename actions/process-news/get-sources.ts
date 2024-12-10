@@ -5,11 +5,16 @@ import { workerAi } from "@/utils/worker-ai";
 import zodToJsonSchema from "zod-to-json-schema";
 
 export async function getSources(content: string) {
-  const schema = zodToJsonSchema(FuenteCitadaSchema);
+  try {
+    const schema = zodToJsonSchema(FuenteCitadaSchema);
 
-  const parsed_prompt = getSourcesPrompt
-    .replace("[NOTICIA_AQUÍ]", content)
-    .replace("[JSON_RESULTADO]", JSON.stringify(schema));
+    const parsed_prompt = getSourcesPrompt
+      .replace("[NOTICIA_AQUÍ]", content)
+      .replace("[JSON_RESULTADO]", JSON.stringify(schema));
 
-  return await retry(workerAi, parsed_prompt, FuenteCitadaSchema);
+    return await retry(workerAi, parsed_prompt, FuenteCitadaSchema);
+  } catch (error) {
+    console.log("[getSources] :: Error", error);
+    return [];
+  }
 }

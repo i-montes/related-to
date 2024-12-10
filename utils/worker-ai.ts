@@ -2,8 +2,8 @@ export async function workerAi(
   prompt: string, // min 1, max 131072
   raw: boolean = false,
   stream: boolean = false,
-  max_tokens: number = 8000, // default 256
-  temperature: number = 0.8, // default 0.6, min 0, max 5
+  max_tokens: number = 10000, // default 256
+  temperature: number = 0.6, // default 0.6, min 0, max 5
   model: string = process.env.WORKER_AI_MODEL || "@cf/meta/llama-3.1-70b-instruct",
   id_account: string = process.env.CLOUDFLARE_ACCOUNT_ID || "",
 ) {
@@ -46,6 +46,8 @@ export async function workerAi(
 
       return JSON.parse(json);
     }
+
+    return response;
     // throw error;
   }
 }

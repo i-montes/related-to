@@ -18,7 +18,7 @@ export async function retry<T extends z.ZodTypeAny>(
     } = {}
 ): Promise<z.infer<T>> {
     const {
-        maxRetries = 5,
+        maxRetries = 6,
         delay = 1000,
         exponentialBackoff = true
     } = options;
@@ -26,8 +26,8 @@ export async function retry<T extends z.ZodTypeAny>(
     let retryCount = 0;
 
     while (retryCount < maxRetries) {
+        // Perform the fetch
         try {
-            // Perform the fetch
             const response = await fetchFn(prompt);
 
             // Validate with Zod schema
@@ -42,7 +42,7 @@ export async function retry<T extends z.ZodTypeAny>(
 
             // If max retries reached, throw the last error
             if (retryCount >= maxRetries) {
-                throw error;
+                throw new Error('Max retries reached: ' + error);
             }
 
             // Log the error and wait before retrying

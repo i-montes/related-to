@@ -43,13 +43,11 @@ export const EventoPrincipalSchema = z.array(
 export type EventoPrincipal = z.infer<typeof EventoPrincipalSchema>;
 
 // Tema Principal Schema - Confirmacion del evento principal
-export const TemaPrincipalSchema = z.array(
-  z.object({
-    tema: z.string(),
-    descripcion: z.string().optional(),
-    perspectivas_principales: z.array(z.string()).optional(),
-  })
-);
+export const TemaPrincipalSchema = z.object({
+  tema: z.string(),
+  descripcion: z.string().optional(),
+  perspectivas_principales: z.array(z.string()).optional(),
+})
 export type TemaPrincipal = z.infer<typeof TemaPrincipalSchema>;
 
 // Fuente Citada Schema
@@ -66,7 +64,7 @@ export type FuenteCitada = z.infer<typeof FuenteCitadaSchema>;
 export const AnalisisSentimientoSchema = z.object({
   tono_general: z.string().optional(),
   polarizacion: z.string().optional(),
-  emociones_predominantes: z.array(z.string()).optional(),
+  emociones_predominantes: z.string().optional(),
 });
 export type AnalisisSentimiento = z.infer<typeof AnalisisSentimientoSchema>;
 
@@ -74,8 +72,11 @@ export const RelatedToSchema = z.array(z.object({
   from: z.string(),
   to: z.string(),
   type: z.string(),
-  description: z.string(),
-  properties: z.intersection(z.object({}), z.any()),
+  description: z.string().optional(),
+  properties: z.array(z.object({
+    label: z.string(),
+    value: z.string(),
+  })).optional(),
 }));
 export type RelatedTo = z.infer<typeof RelatedToSchema>;
 
